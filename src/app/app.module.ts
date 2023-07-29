@@ -3,10 +3,38 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InicioComponent } from './componentes/inicio/inicio.component';
+import { InstitucionalComponent } from './componentes/institucional/institucional.component';
+import { NavegacionComponent } from './componentes/navegacion/navegacion.component';
+import { PrincipalComponent } from './componentes/principal/principal.component';
+import { LateralComponent } from './componentes/lateral/lateral.component';
+import { UsuarioAltaComponent } from './componentes/usuario-alta/usuario-alta.component';
+import { UsuarioActualizarComponent } from './componentes/usuario-actualizar/usuario-actualizar.component';
+import { UsuarioEliminarComponent } from './componentes/usuario-eliminar/usuario-eliminar.component';
+import { LibroAltaComponent } from './componentes/libro-alta/libro-alta.component';
+import { LibroActualizarComponent } from './componentes/libro-actualizar/libro-actualizar.component';
+import { LibroEliminarComponent } from './componentes/libro-eliminar/libro-eliminar.component';
+import { PrestamoLibroComponent } from './componentes/prestamo-libro/prestamo-libro.component';
+import { DevolucionLibroComponent } from './componentes/devolucion-libro/devolucion-libro.component';
+import { ConsultarLibroComponent } from './componentes/consultar-libro/consultar-libro.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InicioComponent,
+    InstitucionalComponent,
+    NavegacionComponent,
+    PrincipalComponent,
+    LateralComponent,
+    UsuarioAltaComponent,
+    UsuarioActualizarComponent,
+    UsuarioEliminarComponent,
+    LibroAltaComponent,
+    LibroActualizarComponent,
+    LibroEliminarComponent,
+    PrestamoLibroComponent,
+    DevolucionLibroComponent,
+    ConsultarLibroComponent
   ],
   imports: [
     BrowserModule,
