@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms'; //HACER USO DEL FORMULARIO
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -38,7 +40,9 @@ import { ConsultarLibroComponent } from './componentes/consultar-libro/consultar
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule, //HACER USO DE FORMULARIOS-SE AGREGA MANUALMENTE
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
